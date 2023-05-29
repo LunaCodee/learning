@@ -1,0 +1,27 @@
+.article{
+    width: 200px;
+    height: 250px;
+    background-color: brown;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+h2{
+    width: 200px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h6{
+    font-size: 8px;
+    margin: 0;
+    font-weight: 200;
+    padding-left: 5px;
+
+}

@@ -1,0 +1,60 @@
+.navbar{
+    height: 80px;
+    background-color:  antiquewhite;
+    display: flex;
+    padding: 10px;
+    text-align: right;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h1{
+ text-decoration: underline;
+ font-size: 20px;
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+.menu li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.menu li a:hover{
+    color: rgb(71, 67, 67);
+   
+}
+
+.menuBurger{
+    height: 20px;
+    width: 20px;
+}
+
+.navButton{
+    display: flex;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .menu{
+        display: none;
+    }
+
+  }
+
+  @media only screen and (min-width: 768px) {
+
+    .navButton{
+        display: none;
+    }
+
+ 
+  }

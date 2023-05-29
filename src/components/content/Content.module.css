@@ -1,0 +1,16 @@
+.content{
+    min-height:80vh;
+    background-color: rgb(251, 249, 247);
+    display:flex;
+    flex-wrap: wrap;
+    gap:30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    justify-content: space-around;
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+}

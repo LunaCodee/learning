@@ -1,18 +1,19 @@
 import styles from './Navbar.module.css'
 import burger from '../../assets/Hamburger_icon.svg.png'
+import Logo from '../../assets/logo.png'
 const Navbar =()=>{
     return(
         <div className={styles.navbar}>
-            <h1 className={styles.h1}>React learning project</h1>
+        <img className={styles.logo} src={Logo}/>
             <ul className={styles.menu}>
                 <li>
-                <a href="">Apie</a>
+                <a href="/">Apie</a>
                 </li>
                 <li>
-                <a href="">Objektai</a>
+                <a href="/culture">Kultūros objektai</a>
                 </li>
                 <li>
-                <a href="">Kontaktai</a>
+                <a href="/contacts">Kontaktai</a>
                 </li>
             </ul>
             <button className={styles.navButton}>

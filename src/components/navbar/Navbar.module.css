@@ -4,15 +4,14 @@
     display: flex;
     padding: 10px;
     text-align: right;
-    margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.h1{
- text-decoration: underline;
- font-size: 20px;
+.logo{
+ height: 90px;
+ width: 150px;
 }
 
 .menu{

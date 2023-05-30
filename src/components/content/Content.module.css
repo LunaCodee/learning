@@ -1,12 +1,14 @@
 .content{
-    min-height:80vh;
+    padding-top: 30px;
+    min-height:calc(100vh - 210px);
     background-color: rgb(251, 249, 247);
     display:flex;
     flex-wrap: wrap;
     gap:30px;
     padding-right: 15px;
     padding-left: 15px;
-    justify-content: space-around;
+    justify-content: center;
+    padding-bottom: 30px;
 }
 
 

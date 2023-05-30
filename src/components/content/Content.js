@@ -30,7 +30,7 @@ const buildingArray = [
     title: "Ciurlionis Art museum",
     author: "kaunas government",
     img: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/51/72/c6/caption.jpg?w=1000&h=-1&s=1",
-    outdated:false,
+    outdated:true,
   },
   {
    title: "Pazaislis monastery",
